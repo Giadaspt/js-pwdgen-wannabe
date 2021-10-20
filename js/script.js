@@ -10,6 +10,7 @@ console.log(firstname);
 console.log(surname);
 console.log(prefColor);
 console.log(details);
+console.log(totLetter);
 
 
 document.getElementById('details').innerHTML = 
