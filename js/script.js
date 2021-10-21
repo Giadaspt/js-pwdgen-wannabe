@@ -2,7 +2,7 @@
 const firstname = prompt('Qual è il tuo nome?');
 const surname = prompt('Ed il tuo cognome?');
 const prefColor = prompt('Qual è il tuo colore preferito?');
-const endYear = parseInt('21');
+const endYear = 21;
 const details = firstname+surname+prefColor+endYear;
 let totLetter = details.length;
 
@@ -13,12 +13,6 @@ console.log(details);
 console.log(totLetter);
 
 
-document.getElementById('details').innerHTML = 
-`
-  ${details}
-`;
+document.getElementById('details').innerHTML = details
 
-document.getElementById('password').innerHTML = 
-`
-  ${totLetter}
-`;
+document.getElementById('password').innerHTML = totLetter
